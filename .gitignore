@@ -1,0 +1,9 @@
+*.history
+.env
+__pycache__/
+*.pyc
+parsed_docs/
+summaries/
+venv/
+.vscode
+docs/
