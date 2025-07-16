@@ -2,21 +2,6 @@
 
 Designing as an internal Company tool alongside an [N8N workflow/automation](https://n8n.io/) (chat-interface based), with potential expansion to include a client-facing web UI. In time it will function as a compendium of all internal company knowledge via a queryable chat-assistant to that end.
 
-## Scope
-
-This initial prototype will be entirely CLI-based. Also serves as my introduction to RAG and Agentic-Applications and will be the first such project. 
-
-It can also be useful as a source of truth for the desired logic/functionality here which will have already been tried and tested + also being useful through n8n extensibility via transposing this projects logic into n8n code nodes/appropriate expressions and queries.
-
-
-## Rationale
-
-Potential for this code-native version to maybe have utility for company in future, but remains to be seen + will be maintaining development of both versions in parallel in any case. 
-
-Building as RAG-capabilities for querying internal knowledge management systrems go brrr and will make life easier all round, simply put automation of this content curation/refinement and storage frees up time taken to do so manually in addition to marked efficiency gains in retrieval of relevant information.
-
-And not least of all because because *text is the universal interface,* and now bringing that to life via chat/agentic capabilities means any non-LLM based such system becomes in essence a deadweight loss in terms of potential team productivity, comparatively.
-
 
 ## Completed
 
@@ -58,6 +43,8 @@ This project can potentially be further expanded/utilised even after the corresp
 ## Current Functionality
 
 ### Ingestion
+
+Documents are placed in and ingested from project `docs/` directory.
 
 ```bash
 # running ingestion pipeline (extract + summarise + embed local docs)
